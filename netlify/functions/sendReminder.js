@@ -2,7 +2,7 @@ const { WebClient } = require('@slack/web-api');
 
 exports.handler = async function(event, context) {
   const slackToken = process.env.SLACK_BOT_TOKEN;
-  const channelId = 'YOUR_CHANNEL_ID';
+  const channelId = 'C06JT1UDSG4';
   const web = new WebClient(slackToken);
 
   try {
